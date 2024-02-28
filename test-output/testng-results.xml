@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-28T11:58:15Z" name="Suite_sequential" finished-at="2024-02-28T12:00:18Z" duration-ms="123015">
+    <groups>
+    </groups>
+    <test started-at="2024-02-28T11:58:15Z" name="Test_sequential" finished-at="2024-02-28T12:00:18Z" duration-ms="123015">
+      <class name="com.march28th.Mouse_actions">
+        <test-method signature="rightclick()[pri:0, instance:com.march28th.Mouse_actions@7a220c9a]" started-at="2024-02-28T11:59:29Z" name="rightclick" finished-at="2024-02-28T11:59:44Z" duration-ms="15299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rightclick -->
+      </class> <!-- com.march28th.Mouse_actions -->
+      <class name="com.march28th.Windowhandles">
+        <test-method signature="single_window()[pri:0, instance:com.march28th.Windowhandles@68702e03]" started-at="2024-02-28T11:59:09Z" name="single_window" finished-at="2024-02-28T11:59:29Z" duration-ms="20177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- single_window -->
+      </class> <!-- com.march28th.Windowhandles -->
+      <class name="com.march28th.Locators">
+        <test-method signature="classname_locator()[pri:0, instance:com.march28th.Locators@2421cc4]" started-at="2024-02-28T11:59:44Z" name="classname_locator" finished-at="2024-02-28T12:00:03Z" duration-ms="18468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classname_locator -->
+      </class> <!-- com.march28th.Locators -->
+      <class name="com.march28th.Dropdown">
+        <test-method signature="selectby_index()[pri:0, instance:com.march28th.Dropdown@4f3bbf68]" started-at="2024-02-28T11:58:16Z" name="selectby_index" finished-at="2024-02-28T11:58:34Z" duration-ms="18716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectby_index -->
+      </class> <!-- com.march28th.Dropdown -->
+      <class name="com.march28th.Popup">
+        <test-method signature="alert_popup()[pri:0, instance:com.march28th.Popup@5be46f9d]" started-at="2024-02-28T11:58:34Z" name="alert_popup" finished-at="2024-02-28T11:58:49Z" duration-ms="14495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alert_popup -->
+      </class> <!-- com.march28th.Popup -->
+      <class name="com.march28th.Screenshot">
+        <test-method signature="screenshot()[pri:0, instance:com.march28th.Screenshot@3f91b517]" started-at="2024-02-28T11:58:49Z" name="screenshot" finished-at="2024-02-28T11:59:09Z" duration-ms="19982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+      </class> <!-- com.march28th.Screenshot -->
+      <class name="com.march28th.Programs_basic">
+        <test-method signature="Browser_launch()[pri:0, instance:com.march28th.Programs_basic@30c93896]" started-at="2024-02-28T12:00:03Z" name="Browser_launch" finished-at="2024-02-28T12:00:18Z" duration-ms="15802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_launch -->
+      </class> <!-- com.march28th.Programs_basic -->
+    </test> <!-- Test_sequential -->
+  </suite> <!-- Suite_sequential -->
+</testng-results>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite_parallel">
+  <test thread-count="5" parallel="tests" name="Test_parallel">
+    <classes>
+      <class name="com.march28th.Dropdown"/>
+      <class name="com.march28th.Popup"/>
+      <class name="com.march28th.Screenshot"/>
+      <class name="com.march28th.Windowhandles"/>
+      <class name="com.march28th.Mouse_actions"/>
+      <class name="com.march28th.Locators"/>
+      <class name="com.march28th.Programs_basic"/>
+    </classes>
+  </test> <!-- Test_parallel -->
+</suite> <!-- Suite_parallel -->

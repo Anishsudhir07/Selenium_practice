@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite_sequential">
+  <test thread-count="5" name="Test_sequential">
+    <classes>
+      <class name="com.march28th.Dropdown"/>
+      <class name="com.march28th.Popup"/>
+      <class name="com.march28th.Screenshot"/>
+      <class name="com.march28th.Windowhandles"/>
+      <class name="com.march28th.Mouse_actions"/>
+      <class name="com.march28th.Locators"/>
+      <class name="com.march28th.Programs_basic"/>
+    </classes>
+  </test> <!-- Test_sequential -->
+</suite> <!-- Suite_sequential -->

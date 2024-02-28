@@ -16,7 +16,7 @@ public class Dropdown {
 	
 	WebDriver driver=null;
 	
-	@Test(priority = 0)
+	@Test(priority = 1)
 	public void selectby_index() throws Throwable
 	{
 	
@@ -34,7 +34,7 @@ public class Dropdown {
 		
 	}
     
-	@Test(priority = 1)
+	@Test(priority = 0)
 	public void selectby_value() throws Throwable
 	{
 		WebDriverManager.edgedriver().setup();
@@ -51,7 +51,7 @@ public class Dropdown {
 		
 	}
 	
-	@Test(priority = 2)
+	@Test(priority = -1)
 	public void selectby_visibletext() throws Throwable
 	{
 		WebDriverManager.edgedriver().setup();
